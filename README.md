@@ -2,8 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Progate</title>
-    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
     <h1 class="title">Selamat Datang di Progate</h1>
