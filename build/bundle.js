@@ -731,14 +731,14 @@ var app = (function () {
     			t3 = space();
     			button = element("button");
     			button.textContent = "certificate";
-    			attr_dev(li0, "class", "svelte-wu9had");
-    			add_location(li0, file, 157, 2, 2738);
-    			attr_dev(li1, "class", "svelte-wu9had");
-    			add_location(li1, file, 158, 2, 2755);
-    			attr_dev(button, "class", "svelte-wu9had");
-    			add_location(button, file, 159, 2, 2775);
-    			attr_dev(div, "class", "menu svelte-wu9had");
-    			add_location(div, file, 156, 1, 2699);
+    			attr_dev(li0, "class", "svelte-mgorp1");
+    			add_location(li0, file, 157, 2, 2743);
+    			attr_dev(li1, "class", "svelte-mgorp1");
+    			add_location(li1, file, 158, 2, 2760);
+    			attr_dev(button, "class", "svelte-mgorp1");
+    			add_location(button, file, 159, 2, 2780);
+    			attr_dev(div, "class", "menu svelte-mgorp1");
+    			add_location(div, file, 156, 1, 2704);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -824,26 +824,26 @@ var app = (function () {
     			t8 = space();
     			if (if_block) if_block.c();
     			if_block_anchor = empty();
-    			attr_dev(b, "class", "svelte-wu9had");
-    			add_location(b, file, 142, 2, 2447);
-    			attr_dev(div0, "class", "navbar-start svelte-wu9had");
-    			add_location(div0, file, 141, 1, 2417);
-    			attr_dev(li0, "class", "svelte-wu9had");
-    			add_location(li0, file, 147, 2, 2508);
-    			attr_dev(li1, "class", "svelte-wu9had");
-    			add_location(li1, file, 148, 2, 2525);
-    			attr_dev(button0, "class", "svelte-wu9had");
-    			add_location(button0, file, 149, 2, 2545);
+    			attr_dev(b, "class", "svelte-mgorp1");
+    			add_location(b, file, 142, 2, 2452);
+    			attr_dev(div0, "class", "navbar-start svelte-mgorp1");
+    			add_location(div0, file, 141, 1, 2422);
+    			attr_dev(li0, "class", "svelte-mgorp1");
+    			add_location(li0, file, 147, 2, 2513);
+    			attr_dev(li1, "class", "svelte-mgorp1");
+    			add_location(li1, file, 148, 2, 2530);
+    			attr_dev(button0, "class", "svelte-mgorp1");
+    			add_location(button0, file, 149, 2, 2550);
     			attr_dev(i, "class", "fas fa-bars");
-    			add_location(i, file, 151, 3, 2624);
+    			add_location(i, file, 151, 3, 2629);
     			attr_dev(button1, "id", "burger");
-    			attr_dev(button1, "class", "svelte-wu9had");
-    			add_location(button1, file, 150, 2, 2577);
-    			attr_dev(div1, "class", "navbar-end svelte-wu9had");
-    			add_location(div1, file, 146, 1, 2480);
-    			attr_dev(div2, "class", "navbar svelte-wu9had");
+    			attr_dev(button1, "class", "svelte-mgorp1");
+    			add_location(button1, file, 150, 2, 2582);
+    			attr_dev(div1, "class", "navbar-end svelte-mgorp1");
+    			add_location(div1, file, 146, 1, 2485);
+    			attr_dev(div2, "class", "navbar svelte-mgorp1");
     			toggle_class(div2, "navbar-shadow2", /*shwnvbr*/ ctx[0]);
-    			add_location(div2, file, 140, 0, 2343);
+    			add_location(div2, file, 140, 0, 2348);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -944,7 +944,12 @@ var app = (function () {
     	let shownavbar = () => {
     		$$invalidate(0, shwnvbr = !shwnvbr);
     		set_store_value(navbarShadow, $navbarShadow = !$navbarShadow, $navbarShadow);
-    		if ($navbarShadow) set_store_value(navbar, $navbar.style.boxShadow = "", $navbar); else set_store_value(navbar, $navbar.style.boxShadow = `0px 10px 20px rgba(0,0,0,0.1)`, $navbar);
+
+    		if ($navbarShadow) {
+    			set_store_value(navbar, $navbar.style.boxShadow = "", $navbar);
+    		} else {
+    			set_store_value(navbar, $navbar.style.boxShadow = `0px 10px 20px rgba(0,0,0,0.1)`, $navbar);
+    		}
     	};
 
     	const writable_props = [];
@@ -1003,33 +1008,56 @@ var app = (function () {
     function create_fragment$1(ctx) {
     	let div2;
     	let div0;
+    	let img;
+    	let img_src_value;
     	let t0;
     	let div1;
     	let h1;
+    	let span;
     	let t2;
+    	let br;
+    	let t3;
+    	let h2;
+    	let t5;
     	let p;
 
     	const block = {
     		c: function create() {
     			div2 = element("div");
     			div0 = element("div");
+    			img = element("img");
     			t0 = space();
     			div1 = element("div");
     			h1 = element("h1");
-    			h1.textContent = "Hello My Name Is Daber";
+    			span = element("span");
+    			span.textContent = "Hello";
     			t2 = space();
+    			br = element("br");
+    			t3 = space();
+    			h2 = element("h2");
+    			h2.textContent = "My Name Is Daber";
+    			t5 = space();
     			p = element("p");
     			p.textContent = "this is my portofolio";
-    			attr_dev(div0, "class", "image intro-image svelte-1yv9hf5");
-    			add_location(div0, file$1, 72, 1, 1309);
-    			attr_dev(h1, "class", "svelte-1yv9hf5");
-    			add_location(h1, file$1, 76, 2, 1434);
-    			attr_dev(p, "class", "svelte-1yv9hf5");
-    			add_location(p, file$1, 77, 2, 1469);
-    			attr_dev(div1, "class", "intro-text svelte-1yv9hf5");
-    			add_location(div1, file$1, 75, 1, 1406);
-    			attr_dev(div2, "class", "info svelte-1yv9hf5");
-    			add_location(div2, file$1, 71, 0, 1288);
+    			if (img.src !== (img_src_value = "/my icon.jpg")) attr_dev(img, "src", img_src_value);
+    			attr_dev(img, "alt", "daber logo");
+    			attr_dev(img, "class", "svelte-75hd2o");
+    			add_location(img, file$1, 87, 2, 2775);
+    			attr_dev(div0, "class", "image intro-image svelte-75hd2o");
+    			add_location(div0, file$1, 86, 1, 2740);
+    			attr_dev(span, "class", "svelte-75hd2o");
+    			add_location(span, file$1, 91, 3, 2865);
+    			add_location(br, file$1, 94, 3, 2900);
+    			attr_dev(h2, "class", "svelte-75hd2o");
+    			add_location(h2, file$1, 95, 3, 2910);
+    			attr_dev(h1, "class", "svelte-75hd2o");
+    			add_location(h1, file$1, 90, 2, 2856);
+    			attr_dev(p, "class", "svelte-75hd2o");
+    			add_location(p, file$1, 97, 2, 2948);
+    			attr_dev(div1, "class", "intro-text svelte-75hd2o");
+    			add_location(div1, file$1, 89, 1, 2828);
+    			attr_dev(div2, "class", "info svelte-75hd2o");
+    			add_location(div2, file$1, 85, 0, 2719);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1037,10 +1065,16 @@ var app = (function () {
     		m: function mount(target, anchor) {
     			insert_dev(target, div2, anchor);
     			append_dev(div2, div0);
+    			append_dev(div0, img);
     			append_dev(div2, t0);
     			append_dev(div2, div1);
     			append_dev(div1, h1);
-    			append_dev(div1, t2);
+    			append_dev(h1, span);
+    			append_dev(h1, t2);
+    			append_dev(h1, br);
+    			append_dev(h1, t3);
+    			append_dev(h1, h2);
+    			append_dev(div1, t5);
     			append_dev(div1, p);
     		},
     		p: noop,
@@ -1138,17 +1172,17 @@ var app = (function () {
     			button = element("button");
     			t4 = text("see ");
     			t5 = text(t5_value);
-    			attr_dev(b, "class", "svelte-1w41exi");
-    			add_location(b, file$2, 97, 1, 1862);
-    			attr_dev(p, "class", "svelte-1w41exi");
-    			add_location(p, file$2, 98, 1, 1888);
-    			attr_dev(button, "class", "svelte-1w41exi");
-    			add_location(button, file$2, 99, 1, 1920);
-    			attr_dev(div, "class", "card svelte-1w41exi");
+    			attr_dev(b, "class", "svelte-k7hkm6");
+    			add_location(b, file$2, 96, 1, 1798);
+    			attr_dev(p, "class", "svelte-k7hkm6");
+    			add_location(p, file$2, 97, 1, 1824);
+    			attr_dev(button, "class", "svelte-k7hkm6");
+    			add_location(button, file$2, 98, 1, 1856);
+    			attr_dev(div, "class", "card svelte-k7hkm6");
     			toggle_class(div, "hvr-bounce-to-right", /*cardInfo*/ ctx[0].bgToRight);
     			toggle_class(div, "hvr-bounce-to-bottom", /*cardInfo*/ ctx[0].bgToRight === void 0);
     			toggle_class(div, "hvr-bounce-to-left", !/*cardInfo*/ ctx[0].bgToRight);
-    			add_location(div, file$2, 96, 0, 1688);
+    			add_location(div, file$2, 95, 0, 1624);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -1569,41 +1603,41 @@ var app = (function () {
     			t11 = space();
     			p3 = element("p");
     			p3.textContent = "NODE JS";
-    			attr_dev(b, "class", "text-animate svelte-f6uzmo");
+    			attr_dev(b, "class", "text-animate svelte-1wlg3sb");
     			add_location(b, file$4, 64, 1, 1799);
-    			attr_dev(i0, "class", "fab fa-html5 svelte-f6uzmo");
+    			attr_dev(i0, "class", "fab fa-html5 svelte-1wlg3sb");
     			add_location(i0, file$4, 67, 3, 1897);
-    			attr_dev(div0, "class", "img svelte-f6uzmo");
+    			attr_dev(div0, "class", "img svelte-1wlg3sb");
     			add_location(div0, file$4, 66, 2, 1875);
-    			attr_dev(p0, "class", "svelte-f6uzmo");
+    			attr_dev(p0, "class", "svelte-1wlg3sb");
     			add_location(p0, file$4, 69, 2, 1940);
-    			attr_dev(div1, "class", "info-list  svelte-f6uzmo");
+    			attr_dev(div1, "class", "info-list  svelte-1wlg3sb");
     			add_location(div1, file$4, 65, 1, 1847);
-    			attr_dev(i1, "class", "fab fa-css3-alt svelte-f6uzmo");
+    			attr_dev(i1, "class", "fab fa-css3-alt svelte-1wlg3sb");
     			add_location(i1, file$4, 73, 3, 2013);
-    			attr_dev(div2, "class", "img svelte-f6uzmo");
+    			attr_dev(div2, "class", "img svelte-1wlg3sb");
     			add_location(div2, file$4, 72, 2, 1991);
-    			attr_dev(p1, "class", "svelte-f6uzmo");
+    			attr_dev(p1, "class", "svelte-1wlg3sb");
     			add_location(p1, file$4, 75, 2, 2058);
-    			attr_dev(div3, "class", "info-list  svelte-f6uzmo");
+    			attr_dev(div3, "class", "info-list  svelte-1wlg3sb");
     			add_location(div3, file$4, 71, 1, 1963);
-    			attr_dev(i2, "class", "fab fa-js-square svelte-f6uzmo");
+    			attr_dev(i2, "class", "fab fa-js-square svelte-1wlg3sb");
     			add_location(i2, file$4, 79, 3, 2130);
-    			attr_dev(div4, "class", "img svelte-f6uzmo");
+    			attr_dev(div4, "class", "img svelte-1wlg3sb");
     			add_location(div4, file$4, 78, 2, 2108);
-    			attr_dev(p2, "class", "svelte-f6uzmo");
+    			attr_dev(p2, "class", "svelte-1wlg3sb");
     			add_location(p2, file$4, 81, 2, 2176);
-    			attr_dev(div5, "class", "info-list  svelte-f6uzmo");
+    			attr_dev(div5, "class", "info-list  svelte-1wlg3sb");
     			add_location(div5, file$4, 77, 1, 2080);
-    			attr_dev(i3, "class", "fab fa-node-js svelte-f6uzmo");
+    			attr_dev(i3, "class", "fab fa-node-js svelte-1wlg3sb");
     			add_location(i3, file$4, 85, 3, 2255);
-    			attr_dev(div6, "class", "img svelte-f6uzmo");
+    			attr_dev(div6, "class", "img svelte-1wlg3sb");
     			add_location(div6, file$4, 84, 2, 2233);
-    			attr_dev(p3, "class", "svelte-f6uzmo");
+    			attr_dev(p3, "class", "svelte-1wlg3sb");
     			add_location(p3, file$4, 87, 2, 2299);
-    			attr_dev(div7, "class", "info-list  svelte-f6uzmo");
+    			attr_dev(div7, "class", "info-list  svelte-1wlg3sb");
     			add_location(div7, file$4, 83, 1, 2205);
-    			attr_dev(div8, "class", "list svelte-f6uzmo");
+    			attr_dev(div8, "class", "list svelte-1wlg3sb");
     			add_location(div8, file$4, 63, 0, 1748);
     		},
     		l: function claim(nodes) {
@@ -1789,7 +1823,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			style = element("style");
-    			style.textContent = "html,body{\n\t\t\tmargin:0px;\n\t\t\tpadding:0px;\n\t\t\tscroll-behavior: smooth;\n\t\t}\n\t\t/* width */\n\t\t::-webkit-scrollbar {\n\t\t  width: 5px;\n\t\t}\n\n\t\t/* Track */\n\t\t::-webkit-scrollbar-track {\n\t\t  background: transparent;\n\t\t}\n\n\t\t/* Handle */\n\t\t::-webkit-scrollbar-thumb {\n\t\t  background: transparent;\n\t\t  border-radius: 5px;\n\t\t}\n\n\t\t/* Handle on hover */\n\t\t::-webkit-scrollbar-thumb:hover {\n\t\t  background: #5ddef4;\n\t\t}";
+    			style.textContent = "html,body{\n\t\t\tmargin:0px;\n\t\t\tpadding:0px;\n\t\t\tbackground: rgba(230,230,250,0.2);\n\t\t\tscroll-behavior: smooth;\n\t\t}\n\t\t/* width */\n\t\t::-webkit-scrollbar {\n\t\t  width: 5px;\n\t\t}\n\n\t\t/* Track */\n\t\t::-webkit-scrollbar-track {\n\t\t  background: transparent;\n\t\t}\n\n\t\t/* Handle */\n\t\t::-webkit-scrollbar-thumb {\n\t\t  background: transparent;\n\t\t  border-radius: 5px;\n\t\t}\n\n\t\t/* Handle on hover */\n\t\t::-webkit-scrollbar-thumb:hover {\n\t\t  background: #5ddef4;\n\t\t}";
     			t1 = space();
     			create_component(navbar.$$.fragment);
     			t2 = space();
@@ -1803,7 +1837,7 @@ var app = (function () {
     			footer.textContent = "© Daber";
     			add_location(style, file$5, 12, 1, 204);
     			attr_dev(footer, "class", "my-footer svelte-1y8c9h");
-    			add_location(footer, file$5, 48, 0, 724);
+    			add_location(footer, file$5, 49, 0, 762);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
