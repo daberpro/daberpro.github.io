@@ -4,11 +4,6 @@ html, body {
 	height: 100%;
 }
 
-@font-face{
-	font-family: "ik";
-	src: url("VarelaRound-Regular.ttf");
-}
-
 body {
 	color: #333;
 	margin: 0;
