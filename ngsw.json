@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737686605455,
+  "timestamp": 1737688560507,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-QIJC2UGR.js",
+        "/main-WTUUAI5R.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-5INURTSO.css"
@@ -718,8 +718,8 @@
     "/img/user6-128x128.jpg": "e3512e667689d817d9627d9033fb639aab11992d",
     "/img/user7-128x128.jpg": "eb1e262c4c21a92cce8eba91958d6b714b9c04d9",
     "/img/user8-128x128.jpg": "beda33082a617b13d51b53e1f32eab8468f0e329",
-    "/index.html": "296636f2b794aa86196da07a2ce195ae929dee1c",
-    "/main-QIJC2UGR.js": "f779b5ed4c77916612e9e5fe43412c0d87ae3f37",
+    "/index.html": "4238be0aae2bf82bea65e47709eaf23ee3a853ca",
+    "/main-WTUUAI5R.js": "c292aba939e5ea4a23dca7806bc96def9b032b77",
     "/manifest.webmanifest": "41661a8f2c3f3b9e0196b2c2b8b568bc455c7d88",
     "/plugins/flag-icon-css/flags/1x1/ac.svg": "62ef359a95fa61079bf1f7efb8118b96531af830",
     "/plugins/flag-icon-css/flags/1x1/ad.svg": "17485bbd5589f9680fc08c0354dad6d2f57b04e5",
